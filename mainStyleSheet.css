@@ -1,0 +1,42 @@
+/* COLORS: 
+- Light Blue #b4c0ceff - text black
+- Powder Blue #A6C0DD - text black
+- Vanilla Cream #F3EBCE - text black
+- cream: #fff6e5
+- Light tan #d8d1b4ff - text black
+- Purple #483143ff - text white
+- Dark Blue #25304bff - text white
+*/
+
+body {
+    background-color: #fff6e5;
+}
+
+#mainTitle{
+    margin: 5;
+    border: 5;
+    padding: 0;
+    text-align: center;
+}
+
+#nameH1{
+	font-family : 'Arial';
+	color: black;
+}
+
+.project{
+    background-color: #D2DFEE;
+}
+
+#projectOne{
+    text-align: center;
+	font-family : 'Arial';
+	color: black;
+    
+}
+
+#projectTwo{
+    text-align: center;
+	font-family : 'Arial';
+	color: black;
+}
