@@ -56,8 +56,23 @@ ul li a:hover {
 /* --------PROJECTS-------- */
 
 .project{
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    border-radius: 15px;
     background-color: #D2DFEE;
     text-align: center;
 	font-family : 'Arial';
 	color: black;
+}
+
+.projectTitle{
+    padding: 20px 20px 5px; /* top, right and left, bottom */
+    text-align: right;
+}
+
+.projectDes{
+    padding: 5px 20px 20px; /* top, right and left, bottom */
+    text-align: right;
 }
