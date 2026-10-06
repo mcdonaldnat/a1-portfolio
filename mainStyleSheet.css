@@ -36,21 +36,26 @@ body {
   color:darkslategray;
 }
 
+#topNavName{
+    color: black;
+}
+
+/* mouse over link */
 ul li a:hover {
   color: black;
-  transform: scale(1.2);
+  font-size: 110%;
+  transition: font-size 0.3s ease;
 }
 
 a {
-  color: darkslategray;       /* default link color */
+  color: darkslategray; /* default link color */
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none; /* no underline */
 }
 
-a:link { color: darkslategray; }           /* unvisited link */
-a:visited { color: darkslategray; }      /* visited link */
-a:hover { color: black; }      /* mouse over link */
-a:active { color: black; }        /* link clicked */
+a:link { color: darkslategray; }      /* unvisited link */
+a:visited { color: darkslategray; }   /* visited link */        
+a:active { color: black; }            /* link clicked */
 
 
 /* --------MAIN TITLE-------- */
@@ -63,8 +68,10 @@ a:active { color: black; }        /* link clicked */
 
 #nameH1{
     margin-block-start: 150px; /* margin top */
+    margin-block-end: 26px; /* margin bottom */
     font-family : 'Arial';
 	color: #3d507b; /*  3d507b 6d4a65 */
+    font-size: 3em; /* 48 px */
 }
 
 #nameDes{
