@@ -34,6 +34,7 @@ body {
   text-align: center;
   padding: 15px 18px;
   color:darkslategray;
+  transition: font-size 0.5s ease;
 }
 
 #topNavName{
@@ -41,7 +42,7 @@ body {
 }
 
 /* mouse over link */
-ul li a:hover {
+.topNav ul li a:hover {
   color: black;
   font-size: 110%;
   transition: font-size 0.3s ease;
