@@ -1,0 +1,82 @@
+/* When projects are hovered over they change color and expand slightly*/
+
+/* COLORS: 
+- Light Blue #b4c0ceff - text black
+- Powder Blue #A6C0DD - text black
+- Vanilla Cream #F3EBCE - text black
+- cream: #fff6e5
+- Light tan #d8d1b4ff - text black
+- Purple #483143ff - text white
+- Dark Blue #25304bff - text white
+*/
+
+body {
+    background-color: #fff6e5;
+}
+
+/* --------TOP NAVIGATION BAR-------- */
+
+.topNav {
+    margin-top: 10px;
+    /* margin-right: 145px; */
+    margin-bottom: 10px;
+    /* margin-left: 145px; */
+}
+
+.topNav ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.topNav ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 18px;
+  color:darkslategray;
+  transition: font-size 0.5s ease;
+}
+
+#topNavName{
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-size: 110%;
+  transition: font-size 0.3s ease;
+}
+
+a {
+  color: darkslategray; /* default link color */
+  font-weight: bold;
+  text-decoration: none; /* no underline */
+}
+
+a:link { color: darkslategray; }      /* unvisited link */
+a:visited { color: darkslategray; }   /* visited link */        
+a:active { color: black; }            /* link clicked */
+
+
+/* --------RESUME TITLE-------- */
+
+.resumeTitle{
+    text-align: center;
+    font-family : 'Arial';
+	color: black;
+}
+
+#resumeH1{
+    margin-block-start: 150px; /* margin top */
+    margin-block-end: 26px; /* margin bottom */
+    font-family : 'Arial';
+	color: #3d507b; /*  3d507b 6d4a65 */
+    font-size: 3em; /* 48 px */
+}
+
+#resumeDes{
+    margin-block-end: 150px; /* margin bottom */
+}
+
+/* --------PROJECTS-------- */
