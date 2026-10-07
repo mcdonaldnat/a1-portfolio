@@ -29,60 +29,82 @@ EMAIL: nmcdona1@uci.edu
       <li class="col-md-1" style="float:right"><a href="#aboutMe">About</a></li>
       <li class="col-md-1" style="float:right"><a href="#projects" class="active">Projects</a></li>
     </div>
+        <div class="col-md-2">example</div> emtpy two cols for spacing
+        style="float:left"
 -->
 
 <div class="topNav container d-none d-sm-block">
   <ul>
     <!-- Name takes up 2 cols with a 2 col offset (cols 3 & 4) -->
-    <li class="col-md-2 offset-md-2" id="topNavName" style="float:left"><strong>Natalie McDonald</strong></li>
+    <li class="col-md-2 offset-md-1" id="topNavName"><strong>Natalie McDonald</strong></li>
     <!-- Pages take up 4 cols with a 2 col offset (cols 7-10) -->
-    <li class="col-md-1" style="float:right"><a href="#contact">Contact</a></li>
-    <li class="col-md-1" style="float:right"><a href="#resume">Resume</a></li>
-    <li class="col-md-1" style="float:right"><a href="#aboutMe">About</a></li>
-    <li class="col-md-1" style="float:right"><a href="#projects" class="active">Projects</a></li>
+    <li class="col-md-1 offset-md-4"><a href="#projects" class="active">Projects</a></li>
+    <li class="col-md-1"><a href="#aboutMe">About</a></li>
+    <li class="col-md-1"><a href="#resume">Resume</a></li>
+    <li class="col-md-1"><a href="#contact">Contact</a></li>
   </ul>
 </div>
 
 <!-- 
+  LANDING PAGE
   The main landing page section
   Includes the title and small description
 -->
-<div class="mainTitle container d-none d-md-block col-md-8">
-  <h1 id="nameH1"><strong>Natalie McDonald</strong></h1>
-  <p id="nameDes">Small description about myself/my skills/who I am</p>
+<div class = "row justify-content-center">
+  <div class="mainTitle container d-none d-sm-block col-md-8">
+    <h1 id="nameH1"><strong>Natalie McDonald</strong></h1>
+    <p id="nameDes">Small description about myself/my skills/who I am</p>
+  </div>
 </div>
 
+
 <body>
-
+  <!-- PROJECTS CONTAINER -->
   <div class="container d-none d-sm-block">
-    <div class="project col-md-8 offset-md-2" id="projectOne">
-      <h3 class="projectTitle"><strong>SafePlate</strong></h3>
-      <p class="projectDes">
-        Food Allergen Safety App
-      </p>
-      <!-- <img src="placeholderIMG.jpeg" alt=""> -->
+
+    <!-- PROJECT ONE-->
+    <div class="row justify-content-center mb-2">
+      <div class="project col-md-8" id="projectOne">
+        <h3 class="projectTitle"><strong>SafePlate</strong></h3>
+        <p class="projectDes">
+          Food Allergen Safety App
+        </p>
+        <!-- <img src="placeholderIMG.jpeg" alt=""> -->
+      </div>
+    </div>
+    
+
+    <!-- PROJECT TWO-->
+    <div class="row justify-content-center mb-2"> 
+      <div class="project col-md-8" id="projectTwo">
+        <h3 class="projectTitle"><strong>Project Two</strong></h3>
+        <p class="projectDes">
+          A description of my project etc etc
+        </p>
+      </div>
+    </div>
+    
+
+    <!-- PROJECT THREE-->
+    <div class="row justify-content-center mb-2">
+      <div class="project col-md-8" id="projectThree">
+        <h3 class="projectTitle"><strong>Project Three</strong></h3>
+        <p class="projectDes">
+          A description of my project etc etc
+        </p>
+      </div>
     </div>
 
-    <div class="project col-md-8 offset-md-2" id="projectTwo">
-      <h3 class="projectTitle"><strong>Project Two</strong></h3>
-      <p class="projectDes">
-        A description of my project etc etc
-      </p>
+    <!-- PROJECT FOUR-->
+    <div class="row justify-content-center mb-2">
+      <div class="project col-md-8" id="projectFour">
+        <h3 class="projectTitle"><strong>Project Four</strong></h3>
+        <p class="projectDes">
+          A description of my project etc etc
+        </p>
+      </div>
     </div>
 
-    <div class="project col-md-10" id="projectThree">
-      <h3 class="projectTitle"><strong>Project Three</strong></h3>
-      <p class="projectDes">
-        A description of my project etc etc
-      </p>
-    </div>
-
-    <div class="project col-md-10" id="projectFour">
-      <h3 class="projectTitle"><strong>Project Four</strong></h3>
-      <p class="projectDes">
-        A description of my project etc etc
-      </p>
-    </div>
   </div>
 
 </body>
