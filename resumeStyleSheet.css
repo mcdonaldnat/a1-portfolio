@@ -41,17 +41,17 @@ body {
     color: black;
 }
 
+a {
+  color: darkslategray; /* default link color */
+  font-weight: bold;
+  text-decoration: none; /* no underline */
+}
+
 /* mouse over link */
 a:hover {
   color: black;
   font-size: 110%;
   transition: font-size 0.3s ease;
-}
-
-a {
-  color: darkslategray; /* default link color */
-  font-weight: bold;
-  text-decoration: none; /* no underline */
 }
 
 a:link { color: darkslategray; }      /* unvisited link */
@@ -79,4 +79,65 @@ a:active { color: black; }            /* link clicked */
     margin-block-end: 150px; /* margin bottom */
 }
 
-/* --------PROJECTS-------- */
+/* --------SKILLS SECTION-------- */
+.skillsHolder{
+    background-color:#D2DFEE;
+    border-radius: 15px;
+    font-family : 'Arial';
+	color: black;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+#skillsTitle{
+    padding: 5% 3% 0.5%; /* top, right and left, bottom */
+}
+
+#skillsDes{
+    padding: 0.5% 5% 5%; /* top, right and left, bottom */
+}
+
+/* --------XP SECTION-------- */
+.xpHolder{
+    background-color:#D2DFEE;
+    border-radius: 15px;
+    font-family : 'Arial';
+	color: black;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    border-radius: 15px;
+}
+
+.xpH3Title{
+    padding: 3% 3% 0.5%; /* top, right and left, bottom */
+}
+
+.xpTitle{
+    padding: 2% 5% 0.5%; /* top, right and left, bottom */
+}
+
+.xpDes{
+    padding: 0.5% 8% 1%; /* top, right and left, bottom */
+}
+
+/* --------EDUCATION SECTION-------- */
+.eduHolder{
+    background-color:#D2DFEE;
+    border-radius: 15px;
+    font-family : 'Arial';
+	color: black;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+#eduTitle{
+    padding: 5% 3% 0.5%; /* top, right and left, bottom */
+}
+
+#eduDes{
+    padding: 0.5% 5% 5%; /* top, right and left, bottom */
+}

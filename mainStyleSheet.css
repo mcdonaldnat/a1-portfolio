@@ -83,9 +83,7 @@ a:active { color: black; }            /* link clicked */
 
 .project{
     margin-top: 15px;
-    margin-right: 150px;
     margin-bottom: 25px;
-    margin-left: 150px;
     border-radius: 15px;
     background-color: #D2DFEE;
     text-align: center;
