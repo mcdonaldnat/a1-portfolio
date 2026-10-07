@@ -22,13 +22,24 @@ EMAIL: nmcdona1@uci.edu
   My name at the left, then at the right: Projects, About Me, Resume, Contact
 -->
 
-<div class="topNav">
+<!-- 
+<div class="col-md-4 offset-md-2">
+      <li class="col-md-1" style="float:right"><a href="#contact">Contact</a></li>
+      <li class="col-md-1" style="float:right"><a href="#resume">Resume</a></li>
+      <li class="col-md-1" style="float:right"><a href="#aboutMe">About</a></li>
+      <li class="col-md-1" style="float:right"><a href="#projects" class="active">Projects</a></li>
+    </div>
+-->
+
+<div class="topNav container d-none d-sm-block">
   <ul>
-    <li id="topNavName" style="float:left"><strong>Natalie McDonald</strong></li>
-    <li style="float:right"><a href="#contact">Contact</a></li>
-    <li style="float:right"><a href="#resume">Resume</a></li>
-    <li style="float:right"><a href="#aboutMe">About Me</a></li>
-    <li style="float:right"><a href="#projects" class="active">Projects</a></li>
+    <!-- Name takes up 2 cols with a 2 col offset (cols 3 & 4) -->
+    <li class="col-md-2 offset-md-2" id="topNavName" style="float:left"><strong>Natalie McDonald</strong></li>
+    <!-- Pages take up 4 cols with a 2 col offset (cols 7-10) -->
+    <li class="col-md-1" style="float:right"><a href="#contact">Contact</a></li>
+    <li class="col-md-1" style="float:right"><a href="#resume">Resume</a></li>
+    <li class="col-md-1" style="float:right"><a href="#aboutMe">About</a></li>
+    <li class="col-md-1" style="float:right"><a href="#projects" class="active">Projects</a></li>
   </ul>
 </div>
 
@@ -36,40 +47,42 @@ EMAIL: nmcdona1@uci.edu
   The main landing page section
   Includes the title and small description
 -->
-<div class="mainTitle">
+<div class="mainTitle container d-none d-md-block col-md-8">
   <h1 id="nameH1"><strong>Natalie McDonald</strong></h1>
   <p id="nameDes">Small description about myself/my skills/who I am</p>
 </div>
 
 <body>
 
-  <div class="project" id="projectOne">
-    <h3 class="projectTitle"><strong>SafePlate</strong></h3>
-    <p class="projectDes">
-      Food Allergen Safety App
-    </p>
-    <!-- <img src="placeholderIMG.jpeg" alt=""> -->
-  </div>
+  <div class="container d-none d-sm-block">
+    <div class="project col-md-8 offset-md-2" id="projectOne">
+      <h3 class="projectTitle"><strong>SafePlate</strong></h3>
+      <p class="projectDes">
+        Food Allergen Safety App
+      </p>
+      <!-- <img src="placeholderIMG.jpeg" alt=""> -->
+    </div>
 
-  <div class="project" id="projectTwo">
-    <h3 class="projectTitle"><strong>Project Two</strong></h3>
-    <p class="projectDes">
-      A description of my project etc etc
-    </p>
-  </div>
+    <div class="project col-md-8 offset-md-2" id="projectTwo">
+      <h3 class="projectTitle"><strong>Project Two</strong></h3>
+      <p class="projectDes">
+        A description of my project etc etc
+      </p>
+    </div>
 
-  <div class="project" id="projectThree">
-    <h3 class="projectTitle"><strong>Project Three</strong></h3>
-    <p class="projectDes">
-      A description of my project etc etc
-    </p>
-  </div>
+    <div class="project col-md-10" id="projectThree">
+      <h3 class="projectTitle"><strong>Project Three</strong></h3>
+      <p class="projectDes">
+        A description of my project etc etc
+      </p>
+    </div>
 
-  <div class="project" id="projectFour">
-    <h3 class="projectTitle"><strong>Project Four</strong></h3>
-    <p class="projectDes">
-      A description of my project etc etc
-    </p>
+    <div class="project col-md-10" id="projectFour">
+      <h3 class="projectTitle"><strong>Project Four</strong></h3>
+      <p class="projectDes">
+        A description of my project etc etc
+      </p>
+    </div>
   </div>
 
 </body>
