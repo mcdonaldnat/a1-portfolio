@@ -67,7 +67,7 @@ a:active { color: black; }            /* link clicked */
 	color: black;
 }
 
-#nameH1{
+.nameH1{
     margin-block-start: 150px; /* margin top */
     margin-block-end: 26px; /* margin bottom */
     font-family : 'Arial';
@@ -75,7 +75,7 @@ a:active { color: black; }            /* link clicked */
     font-size: 3em; /* 48 px */
 }
 
-#nameDes{
+.nameDes{
     margin-block-end: 150px; /* margin bottom */
 }
 
@@ -99,4 +99,36 @@ a:active { color: black; }            /* link clicked */
 .projectDes{
     padding: 5px 20px 20px; /* top, right and left, bottom */
     text-align: right;
+}
+
+/* --------CONTACT-------- */
+
+#contact-section{
+    background-color: #3d507b;
+}
+
+.contactH2{
+    margin-block-start: 150px; /* margin top */
+    margin-block-end: 26px; /* margin bottom */
+    font-family : 'Arial';
+	color: white; /*  3d507b 6d4a65 */
+    font-size: 3em; /* 48 px */
+    text-align: center;
+}
+
+.contactDes{
+    margin-block-end: 150px; /* margin bottom */
+    text-align: center;
+    color: white;
+}
+
+#contact-li-link{
+    color:beige;
+}
+
+/* mouse over link */
+#contact-li-link a:hover {
+  color: #fff6e5;
+  font-size: 110%;
+  transition: font-size 0.3s ease;
 }
