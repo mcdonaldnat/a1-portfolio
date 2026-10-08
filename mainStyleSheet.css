@@ -101,10 +101,16 @@ a:active { color: black; }            /* link clicked */
     text-align: right;
 }
 
+#projectFour{
+    margin-bottom: 150px;
+}
+
 /* --------CONTACT-------- */
 
-#contact-section{
+.contact-section{
     background-color: #3d507b;
+    margin-left: 0px;
+    margin-right:0px;
 }
 
 .contactH2{
@@ -128,7 +134,7 @@ a:active { color: black; }            /* link clicked */
 
 /* mouse over link */
 #contact-li-link a:hover {
-  color: #fff6e5;
+  color: black; /* fff6e5 */
   font-size: 110%;
   transition: font-size 0.3s ease;
 }
