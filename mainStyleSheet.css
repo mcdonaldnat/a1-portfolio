@@ -54,8 +54,8 @@ a {
   text-decoration: none; /* no underline */
 }
 
-a:link { color: darkslategray; }      /* unvisited link */
-a:visited { color: darkslategray; }   /* visited link */        
+/* a:link { color: darkslategray; }       unvisited link */
+/* a:visited { color: darkslategray; }    visited link */        
 a:active { color: black; }            /* link clicked */
 
 
