@@ -21,15 +21,16 @@ EMAIL: nmcdona1@uci.edu
     The navigation bar at the top
     My name at the left, then at the right: Projects, About Me, Resume, Contact
     -->
-    <div class="topNav container d-none d-sm-block">
+    <div class="topNav container d-block d-md-block">
     <ul>
-        <!-- Name takes up 2 cols with a 2 col offset (cols 3 & 4) -->
+        <!-- Name takes up 2 cols with a 2 col offset (cols 3 & 4) on a md screen -->
+         <!-- Don't show on XS or SM screen -->
         <li class="col-md-2 offset-md-1" id="topNavName"><strong>Natalie McDonald</strong></li>
-        <!-- Pages take up 4 cols with a 2 col offset (cols 7-10) -->
-        <li class="col-md-1 offset-md-4"><a href="index.html" class="active">Projects</a></li>
-        <li class="col-md-1"><a href="about.html">About</a></li>
-        <li class="col-md-1"><a href="resume.html">Resume</a></li>
-        <li class="col-md-1"><a href="index.html#contact-section">Contact</a></li>
+        <!-- Pages take up 4 cols with a 2 col offset (cols 7-10) on a md screen -->
+        <li class="col-md-1 offset-md-4 col-2 offset-2"><a href="index.html" class="active">Projects</a></li>
+        <li class="col-md-1 col-2"><a href="about.html">About</a></li>
+        <li class="col-md-1 col-2"><a href="resume.html">Resume</a></li>
+        <li class="col-md-1 col-2"><a href="index.html#contact-section">Contact</a></li>
     </ul>
     </div>
 </header>
@@ -37,9 +38,9 @@ EMAIL: nmcdona1@uci.edu
 <body>
     <!-- ABOUT TITLE -->
     <div class = "row justify-content-center">
-    <div class="container d-none d-sm-block col-md-8">
-        <h1 class="aboutH1 col-sm-8 offset-sm-2" id="aboutH1"><strong>About Me</strong></h1>
-        <p class="aboutDes col-sm-8 offset-sm-2" id="aboutH1Des"> 
+    <div class="container d-block d-sm-block col-md-8">
+        <h1 class="aboutH1 col-md-8 offset-md-2 col-10 offset-1" id="aboutH1"><strong>About Me</strong></h1>
+        <p class="aboutDes col-md-8 offset-md-2 col-10 offset-1" id="aboutH1Des"> 
             Hello! I’m passionate about Human-Computer Interaction (HCI), UX/UI Design, accessibility, 
         and creating user-centric digital experiences.
         </p>
@@ -47,11 +48,11 @@ EMAIL: nmcdona1@uci.edu
     </div>
 
   <!-- ABOUT CONTAINER -->
-  <div class="container d-none d-sm-block">
+  <div class="container d-block d-sm-block">
 
     <!-- ABOUT ME-->
     <div class="row justify-content-center mb-2">
-      <div class="aboutHolder col-md-8">
+      <div class="aboutHolder col-md-8 col-10">
         <h2 class="aboutTitle"><strong>Hi, I'm Natalie!</strong></h2>
         <p class="aboutDes">
             I’m a UC Irvine Game Design and Interactive Media student with a minor in Informatics, who is passionate about Human-Computer Interaction (HCI), 
@@ -65,7 +66,7 @@ EMAIL: nmcdona1@uci.edu
 
     <!-- ACCESSIBILITY-->
     <div class="row justify-content-center mb-2">
-      <div class="aboutHolder col-md-8">
+      <div class="aboutHolder col-md-8 col-10">
         <h2 class="aboutTitle"><strong>My thoughts on Accessibility</strong></h2>
         <p class="aboutDes">
             I truly believe that accessibility helps <em>every</em> user. A good design is an accessible design.

@@ -10,27 +10,30 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
+10/10
 - */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
 - */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+- Appropriate headings and paragraph text
+- Link to an eternal page (my LinkedIn)
+- Multiple pages, with appropriate navigation between them
 
 (b) CSS features
-
+- Modifying padding and margins
+- Modifying text, link, and background colors
 
 
 (c) Advanced features
-
+- Adding CSS animations for text, links, and certain sections
+I had discussed this with the professor during office hours and he had said that this counts for the Advanced Features section
 
 
 
@@ -43,12 +46,31 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+- I did not use AI at all for this project
+- I consulted W3Schools often for HTML and CSS, links I visited are:
+	https://www.w3schools.com/html/
+	https://www.w3schools.com/html/html_links.asp
+	https://www.w3schools.com/html/html_div.asp
+	https://www.w3schools.com/html/html_headings.asp
+	https://www.w3schools.com/html/html_formatting.asp
+	https://www.w3schools.com/Css/
+	https://www.w3schools.com/Css/css_colors.asp
+	https://www.w3schools.com/Css/css_margin.asp
+	https://www.w3schools.com/Css/css_padding.asp
+	https://www.w3schools.com/Css/css_inline-block.asp
+	https://www.w3schools.com/Css/css_navbar.asp
+	https://www.w3schools.com/Css/css3_borders.asp
+	https://www.w3schools.com/Css/css3_transitions.asp
+- I used this website to create a color palette:
+	https://coolors.co/
+- I used this website to check my color contrast:
+	https://webaim.org/resources/contrastchecker/
 
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+- I did not consult anyone else (other than the professor) as part of this assignment
 
 
 7. Is there anything special we need to know in order to run your code?
-
+- N/A
