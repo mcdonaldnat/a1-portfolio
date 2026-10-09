@@ -1,0 +1,100 @@
+/* When projects are hovered over they change color and expand slightly*/
+
+/* COLORS: 
+- Light Blue #b4c0ceff - text black
+- Powder Blue #A6C0DD - text black
+- Vanilla Cream #F3EBCE - text black
+- cream: #fff6e5
+- Light tan #d8d1b4ff - text black
+- Purple #483143ff - text white
+- Dark Blue #25304bff - text white
+*/
+
+body {
+    background-color: #fff6e5;
+}
+
+/* --------TOP NAVIGATION BAR-------- */
+
+.topNav {
+    margin-top: 10px;
+    /* margin-right: 145px; */
+    margin-bottom: 10px;
+    /* margin-left: 145px; */
+}
+
+.topNav ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.topNav ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 18px;
+}
+
+.topNav ul li a{
+    transition: font-size 0.5s ease;
+}
+
+#topNavName{
+    color: black;
+}
+
+a {
+  color: darkslategray; /* default link color */
+  font-weight: bold;
+  text-decoration: none; /* no underline */
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-size: 110%;
+  transition: font-size 0.3s ease;
+}
+       
+a:active { color: black; }            /* link clicked */
+
+
+/* --------RESUME TITLE-------- */
+
+.aboutTitle{
+    text-align: center;
+    font-family : 'Arial';
+	color: black;
+}
+
+#aboutH1{
+    margin-block-start: 150px; /* margin top */
+    margin-block-end: 26px; /* margin bottom */
+    font-family : 'Arial';
+	color: #3d507b; /*  3d507b 6d4a65 */
+    font-size: 3em; /* 48 px */
+}
+
+#aboutDes{
+    margin-block-end: 150px; /* margin bottom */
+}
+
+/* --------SKILLS SECTION-------- */
+.skillsHolder{
+    background-color:#D2DFEE;
+    border-radius: 15px;
+    font-family : 'Arial';
+	color: black;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+#skillsTitle{
+    padding: 5% 3% 0.5%; /* top, right and left, bottom */
+}
+
+#skillsDes{
+    padding: 0.5% 5% 5%; /* top, right and left, bottom */
+}
+

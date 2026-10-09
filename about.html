@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Natalie McDonald
+EMAIL: nmcdona1@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Natalie McDonald">
+  <meta name="description" content="description of your page">
+   <!-- you would link to an external stylesheet here!
+      <link rel="stylesheet" href="mainStyleSheet.css">
+    -->
+   <!-- you would also link to Bootstrap here! -->
+  <title>N.McDonald Portfolio</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="aboutStyleSheet.css">
+</head>
+
+<!--
+  The navigation bar at the top
+  My name at the left, then at the right: Projects, About Me, Resume, Contact
+-->
+<div class="topNav container d-none d-sm-block">
+  <ul>
+    <!-- Name takes up 2 cols with a 2 col offset (cols 3 & 4) -->
+    <li class="col-md-2 offset-md-1" id="topNavName"><strong>Natalie McDonald</strong></li>
+    <!-- Pages take up 4 cols with a 2 col offset (cols 7-10) -->
+    <li class="col-md-1 offset-md-4"><a href="index.html" class="active">Projects</a></li>
+    <li class="col-md-1"><a href="about.html">About</a></li>
+    <li class="col-md-1"><a href="resume.html">Resume</a></li>
+    <li class="col-md-1"><a href="index.html#contact-section">Contact</a></li>
+  </ul>
+</div>
+
+<!-- 
+  RESUME TITLE
+-->
+<div class = "row justify-content-center">
+  <div class="aboutTitle container d-none d-sm-block col-md-8">
+    <h1 class="aboutH1 col-sm-8 offset-sm-2" id="aboutH1"><strong>About Me</strong></h1>
+    <p class="aboutDes col-sm-8 offset-sm-2" id="aboutDes"> 
+        Hello! I’m passionate about Human-Computer Interaction (HCI), UX/UI Design, accessibility, 
+      and creating user-centric digital experiences.
+    </p>
+  </div>
+</div>
+
+
+<body>
+  <!-- SKILLS CONTAINER -->
+  <div class="container d-none d-sm-block">
+
+    <!-- SKILLS-->
+    <div class="row justify-content-center mb-2">
+      <div class="skillsHolder col-md-8">
+        <h3 id="skillsTitle"><strong>Hi, I'm Natalie!</strong></h3>
+        <p id="skillsDes">
+            <strong>Programming Languages: </strong>Python (Standard Library, Unittest, Pathlib, Tkinter, JSON, CSV), Javascript, experience with C#<br>
+            <strong>UI/UX: </strong>UI/UX Design, Human Computer Interaction, Design for Inclusivity & Accessibility, Requirements Analysis & Design<br>
+            <strong>Game Design: </strong>Unity Engine, Game Design Fundamentals, Visual Design Fundamentals<br>
+            <strong>Applications: </strong>Unity, Microsoft Visual Studio, PyCharm, Git/GitHub, FigJam, Google Applications<br>
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+</html>
