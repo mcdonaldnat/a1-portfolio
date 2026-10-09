@@ -133,8 +133,8 @@ a:active { color: black; }            /* link clicked */
 }
 
 /* mouse over link */
-#contact-li-link a:hover {
-  color: black; /* fff6e5 */
+#contact-li-link:hover {
+  color: #fff6e5; /* fff6e5 */
   font-size: 110%;
   transition: font-size 0.3s ease;
 }
