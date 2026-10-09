@@ -76,6 +76,7 @@ a:active { color: black; }            /* link clicked */
     font-family : 'Arial';
 	color: #3d507b; /*  3d507b 6d4a65 */
     font-size: 3em; /* 48 px */
+    font-weight: bold;
 }
 
 .nameDes{
@@ -98,6 +99,8 @@ a:active { color: black; }            /* link clicked */
 .projectTitle{
     padding: 20px 20px 5px; /* top, right and left, bottom */
     text-align: right;
+    font-size: larger; 
+    font-weight: bold;
 }
 
 .projectDes{
@@ -128,6 +131,7 @@ a:active { color: black; }            /* link clicked */
     font-family : 'Arial';
 	color: white; /*  3d507b 6d4a65 */
     font-size: 3em; /* 48 px */
+    font-weight: bold;
     text-align: center;
 }
 

@@ -92,6 +92,7 @@ a:active { color: black; }            /* link clicked */
 
 #skillsTitle{
     padding: 5% 3% 0.5%; /* top, right and left, bottom */
+    font-size: x-large;
 }
 
 #skillsDes{
@@ -111,12 +112,14 @@ a:active { color: black; }            /* link clicked */
     border-radius: 15px;
 }
 
-.xpH3Title{
+.xpH2Title{
     padding: 3% 3% 0.5%; /* top, right and left, bottom */
+    font-size: x-large;
 }
 
 .xpTitle{
     padding: 2% 5% 0.5%; /* top, right and left, bottom */
+    font-size: larger; 
 }
 
 .xpDes{
@@ -136,6 +139,7 @@ a:active { color: black; }            /* link clicked */
 
 #eduTitle{
     padding: 5% 3% 0.5%; /* top, right and left, bottom */
+    font-size: x-large;
 }
 
 #eduDes{
