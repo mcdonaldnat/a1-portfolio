@@ -37,6 +37,10 @@ body {
   transition: font-size 0.5s ease;
 }
 
+.topNav ul li a{
+    transition: font-size 0.3s ease;
+}
+
 #topNavName{
     color: black;
 }
@@ -45,7 +49,6 @@ body {
 .topNav ul li a:hover {
   color: black;
   font-size: 110%;
-  transition: font-size 0.3s ease;
 }
 
 a {
@@ -89,6 +92,7 @@ a:active { color: black; }            /* link clicked */
     text-align: center;
 	font-family : 'Arial';
 	color: black;
+    transition: width 0.5s ease;
 }
 
 .projectTitle{
@@ -103,6 +107,11 @@ a:active { color: black; }            /* link clicked */
 
 #projectFour{
     margin-bottom: 150px;
+}
+
+.project:hover{
+    background-color: #B5CAE3;
+    width: 101%;
 }
 
 /* --------CONTACT-------- */
@@ -130,11 +139,11 @@ a:active { color: black; }            /* link clicked */
 
 #contact-li-link{
     color:beige;
+    transition: font-size 0.3s ease;
 }
 
 /* mouse over link */
 #contact-li-link:hover {
   color: #fff6e5; /* fff6e5 */
   font-size: 110%;
-  transition: font-size 0.3s ease;
 }

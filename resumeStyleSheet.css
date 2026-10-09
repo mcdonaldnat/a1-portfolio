@@ -33,7 +33,10 @@ body {
   display: inline-block;
   text-align: center;
   padding: 15px 18px;
-  transition: font-size 0.5s ease;
+}
+
+.topNav ul li a{
+    transition: font-size 0.5s ease;
 }
 
 #topNavName{
