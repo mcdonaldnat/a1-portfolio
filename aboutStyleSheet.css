@@ -58,29 +58,8 @@ a:hover {
        
 a:active { color: black; }            /* link clicked */
 
-
-/* --------RESUME TITLE-------- */
-
-.aboutTitle{
-    text-align: center;
-    font-family : 'Arial';
-	color: black;
-}
-
-#aboutH1{
-    margin-block-start: 150px; /* margin top */
-    margin-block-end: 26px; /* margin bottom */
-    font-family : 'Arial';
-	color: #3d507b; /*  3d507b 6d4a65 */
-    font-size: 3em; /* 48 px */
-}
-
-#aboutDes{
-    margin-block-end: 150px; /* margin bottom */
-}
-
-/* --------SKILLS SECTION-------- */
-.skillsHolder{
+/* --------ABOUT SECTION-------- */
+.aboutHolder{
     background-color:#D2DFEE;
     border-radius: 15px;
     font-family : 'Arial';
@@ -90,11 +69,30 @@ a:active { color: black; }            /* link clicked */
     border-radius: 15px;
 }
 
-#skillsTitle{
+#aboutH1{
+    margin-block-start: 150px; /* margin top */
+    margin-block-end: 26px; /* margin bottom */
+    font-family : 'Arial';
+	color: #3d507b; /*  3d507b 6d4a65 */
+    font-size: 3em; /* 48 px */
+    text-align: center;
+}
+
+#aboutH1Des{
+    text-align: center;
+    color: black;
+    margin-bottom: 150px;
+}
+
+#aboutTitle{
+    text-align: left;
+    font-family : 'Arial';
+	color: black;
     padding: 5% 3% 0.5%; /* top, right and left, bottom */
 }
 
-#skillsDes{
-    padding: 0.5% 5% 5%; /* top, right and left, bottom */
+#aboutDes{
+    padding: 0.5% 5% 0.5%; /* top, right and left, bottom */
+    margin-bottom: 5%;
 }
 
