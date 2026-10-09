@@ -87,7 +87,7 @@ a:active { color: black; }            /* link clicked */
     margin-block-end: 26px; /* margin bottom */
     font-family : 'Arial';
 	color: #3d507b; /*  3d507b 6d4a65 */
-    font-size: 3em; /* 48 px */
+    font-size: 3em;
     text-align: center;
 }
 
@@ -95,6 +95,7 @@ a:active { color: black; }            /* link clicked */
     text-align: center;
     color: black;
     margin-bottom: 150px;
+    font-size: large; 
 }
 
 
