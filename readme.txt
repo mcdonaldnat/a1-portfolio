@@ -61,6 +61,8 @@ I had discussed this with the professor during office hours and he had said that
 	https://www.w3schools.com/Css/css_navbar.asp
 	https://www.w3schools.com/Css/css3_borders.asp
 	https://www.w3schools.com/Css/css3_transitions.asp
+	https://getbootstrap.com/docs/5.0/layout/columns/#offsetting-columns
+	https://getbootstrap.com/docs/5.0/layout/breakpoints/
 - I used this website to create a color palette:
 	https://coolors.co/
 - I used this website to check my color contrast:

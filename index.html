@@ -19,21 +19,22 @@ EMAIL: nmcdona1@uci.edu
 
 
 <header>
-  <!--
-    The NAVIGATION BAR at the top
+    <!--
+    The navigation bar at the top
     My name at the left, then at the right: Projects, About Me, Resume, Contact
-  -->
-  <div class="topNav container d-none d-sm-block">
+    -->
+    <div class="topNav container d-block d-md-block">
     <ul>
-      <!-- Name takes up 2 cols with a 2 col offset (cols 3 & 4) -->
-      <li class="col-sm-2 offset-sm-1" id="topNavName"><strong>Natalie McDonald</strong></li>
-      <!-- Pages take up 4 cols with a 2 col offset (cols 7-10) -->
-      <li class="col-sm-1 offset-sm-4"><a href="index.html" class="active">Projects</a></li>
-      <li class="col-sm-1"><a href="about.html">About</a></li>
-      <li class="col-sm-1"><a href="resume.html">Resume</a></li>
-      <li class="col-sm-1"><a href="#contact-section">Contact</a></li>
+        <!-- Name takes up 2 cols with a 2 col offset (cols 3 & 4) on a md screen -->
+         <!-- Don't show on XS or SM screen -->
+        <li class="col-md-2 offset-md-1" id="topNavName"><strong>Natalie McDonald</strong></li>
+        <!-- Pages take up 4 cols with a 2 col offset (cols 7-10) on a md screen -->
+        <li class="col-md-1 offset-md-4 col-2 offset-2"><a href="index.html" class="active">Projects</a></li>
+        <li class="col-md-1 col-2"><a href="about.html">About</a></li>
+        <li class="col-md-1 col-2"><a href="resume.html">Resume</a></li>
+        <li class="col-md-1 col-2"><a href="index.html#contact-section">Contact</a></li>
     </ul>
-  </div>
+    </div>
 </header>
 
 
@@ -43,17 +44,19 @@ EMAIL: nmcdona1@uci.edu
     The main landing page section
     Includes the title and small description
   -->
-  <div class = "row justify-content-center">
-    <div class="mainTitle container d-none d-sm-block">
-      <h1 class="nameH1 col-sm-8 offset-sm-2">Natalie McDonald</h1>
-      <p class = "nameDes col-sm-6 offset-sm-3">Hello! I’m passionate about Human-Computer Interaction (HCI), UX/UI Design, accessibility, 
-        and creating user-centric digital experiences.
-      </p>
+  <div class = "justify-content-center">
+    <div class="mainTitle container d-block d-sm-block">
+      <div class = "row">
+        <h1 class="nameH1 col-sm-8 offset-sm-2">Natalie McDonald</h1>
+        <p class = "nameDes col-sm-6 offset-sm-3">Hello! I’m passionate about Human-Computer Interaction (HCI), UX/UI Design, accessibility, 
+          and creating user-centric digital experiences.
+        </p>
+      </div>
     </div>
   </div>
 
   <!-- PROJECTS CONTAINER -->
-  <div class="container d-none d-sm-block">
+  <div class="container d-block d-sm-block">
 
     <!-- PROJECT ONE-->
     <div class="row justify-content-center mb-2">
@@ -72,7 +75,7 @@ EMAIL: nmcdona1@uci.edu
       <div class="project col-md-8" id="projectTwo">
         <h2 class="projectTitle">Project Two</h2>
         <p class="projectDes">
-          A description of my project etc etc
+          A hypothetical project
         </p>
       </div>
     </div>
@@ -83,7 +86,7 @@ EMAIL: nmcdona1@uci.edu
       <div class="project col-md-8" id="projectThree">
         <h2 class="projectTitle">Project Three</h2>
         <p class="projectDes">
-          A description of my project etc etc
+          A hypothetical project
         </p>
       </div>
     </div>
@@ -93,7 +96,7 @@ EMAIL: nmcdona1@uci.edu
       <div class="project col-md-8" id="projectFour">
         <h2 class="projectTitle">Project Four</h2>
         <p class="projectDes">
-          A description of my project etc etc
+          A hypothetical project
         </p>
       </div>
     </div>
@@ -101,7 +104,7 @@ EMAIL: nmcdona1@uci.edu
   </div>
 
     <!-- CONTACT SECTION-->
-  <div class="contact-section container-fluid d-none d-sm-block col-sm-12" id ="contact-section">
+  <div class="contact-section container-fluid d-block d-sm-block col-sm-12" id ="contact-section">
     <div class="row justify-content-center">
       <h2 class="contactH2 col-sm-8">Contact Me</h2>
       <p class="contactDes col-sm-6">I'd love to hear from you!<br>

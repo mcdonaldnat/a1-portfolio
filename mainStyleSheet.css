@@ -45,6 +45,13 @@ body {
     color: black;
 }
 
+/* Don't display on small and xs devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+    #topNavName{
+        display: none;
+    }
+}
+
 /* mouse over link */
 .topNav ul li a:hover {
   color: black;
@@ -94,6 +101,7 @@ a:active { color: black; }            /* link clicked */
 	font-family : 'Arial';
 	color: black;
     transition: width 0.5s ease;
+    justify-content: center;
 }
 
 .projectTitle{
