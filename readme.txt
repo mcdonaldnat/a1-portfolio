@@ -25,16 +25,15 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 - Appropriate headings and paragraph text
 - Link to an eternal page (my LinkedIn)
 - Multiple pages, with appropriate navigation between them
+- Semantic HTML tags: <header>
 
 (b) CSS features
 - Modifying padding and margins
 - Modifying text, link, and background colors
 
-
 (c) Advanced features
 - Adding CSS animations for text, links, and certain sections
 I had discussed this with the professor during office hours and he had said that this counts for the Advanced Features section
-
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
@@ -69,10 +68,9 @@ I had discussed this with the professor during office hours and he had said that
 	https://webaim.org/resources/contrastchecker/
 
 
-
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 - I did not consult anyone else (other than the professor) as part of this assignment
 
 
 7. Is there anything special we need to know in order to run your code?
-- N/A
+- Some CSS animations active when a user hovers the mouse over a section or piece of text. On a touchscreen device, instead of activating on hover, these animations will activate on click. 
